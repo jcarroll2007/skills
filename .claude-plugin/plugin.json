@@ -1,0 +1,7 @@
+{
+  "name": "jordan-skills",
+  "skills": [
+    "./skills/prd",
+    "./skills/erd"
+  ]
+}

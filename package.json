@@ -1,0 +1,12 @@
+{
+  "name": "jordan-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A collection of independently installable Claude skills for authoring requirements documents.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcarroll2007/skills"
+  },
+  "license": "MIT",
+  "packageManager": "npm@10.9.4"
+}
