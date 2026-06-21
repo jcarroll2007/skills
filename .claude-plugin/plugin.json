@@ -2,6 +2,9 @@
   "name": "jordan-skills",
   "skills": [
     "./skills/prd",
-    "./skills/erd"
+    "./skills/emd",
+    "./skills/erd",
+    "./skills/rfc",
+    "./skills/adr"
   ]
 }

@@ -23,7 +23,10 @@ install them on, so every skill in this repo is independently installable.
 | Skill | Description |
 | ----- | ----------- |
 | [`prd`](./skills/prd) | Author a **Product Requirements Document** — problem, users, solution, success metrics, and scope. |
-| [`erd`](./skills/erd) | Author an **Engineering Requirements Document** — architecture, data models, interfaces, dependencies, and rollout. |
+| [`emd`](./skills/emd) | Author an **Engineering Milestone Document** — the engineering end state and how the journey phases into independently shippable milestones. |
+| [`erd`](./skills/erd) | Author an **Engineering Requirements Document** — testable functional/non-functional requirements, constraints, and acceptance criteria. |
+| [`rfc`](./skills/rfc) | Author an **engineering design doc / RFC** — the chosen approach, why it beats the alternatives, and what could go wrong. |
+| [`adr`](./skills/adr) | Author an **Architecture Decision Record** — a durable, immutable record of one decision, its context, and its consequences. |
 
 ## Repository structure
 
@@ -32,10 +35,11 @@ install them on, so every skill in this repo is independently installable.
 ├── .claude-plugin/
 │   └── plugin.json        # Lists each skill so it can be installed independently
 ├── skills/
-│   ├── prd/
-│   │   └── SKILL.md
-│   └── erd/
-│       └── SKILL.md
+│   ├── prd/                # each skill: SKILL.md + TEMPLATE.md + EXAMPLE.md
+│   ├── emd/
+│   ├── erd/
+│   ├── rfc/
+│   └── adr/
 ├── package.json
 └── README.md
 ```
